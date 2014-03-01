@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- customize-group
  magit-status
  list-packages
  package-list-packages-no-fetch
+ customize-group
  package-install
  make-directory
- rename-file
+ load-file
 )
 
 ;; ----- smex-data -----
@@ -18,9 +18,10 @@
  (make-directory . 2)
  (rename-file . 1)
  (package-install . 17)
- (list-packages . 9)
- (package-list-packages-no-fetch . 2)
+ (list-packages . 15)
+ (package-list-packages-no-fetch . 3)
  (magit-status-mode . 1)
- (magit-status . 29)
- (customize-group . 2)
+ (magit-status . 34)
+ (customize-group . 3)
+ (kill-compilation . 1)
 )

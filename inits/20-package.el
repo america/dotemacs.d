@@ -9,6 +9,7 @@
 
 (defvar installing-package-list
   '(
+    ruby-mode
     php-mode
     scala-mode
     markdown-mode

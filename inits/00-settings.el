@@ -1,12 +1,12 @@
-;; create backup file in ~/.emacs.d/backup
+;; create backup file in ~/.emacs.d/backups
 (setq make-backup-files t)
 (setq backup-directory-alist
-  (cons (cons "\\.*$" (expand-file-name "~/.emacs.d/backup"))
+  (cons (cons "\\.*$" (expand-file-name "~/.emacs.d/backups"))
     backup-directory-alist))
 
-;; create auto-save file in ~/.emacs.d/backup
+;; create auto-save file in ~/.emacs.d/backups
 (setq auto-save-file-name-transforms
-      `((".*" ,(expand-file-name "~/.emacs.d/backup/") t)))
+      `((".*" ,(expand-file-name "~/.emacs.d/backups/") t)))
 
 ;; コメントアウトの形式変更
 (setq comment-style 'multi-line)
